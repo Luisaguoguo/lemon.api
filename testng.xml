@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UnitTestToolOfTestNG" parallel="false">  <!-- 项目  -->
+<test name="logon">					<!-- 模块 -->
+    <classes>
+        <class name="testCase.TestTaskRegister"/>
+        <class name="testCase.TestTaskLogon"/>
+
+
+        <class name="testCase.TestTaskRecharge"/>
+    </classes>
+</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
